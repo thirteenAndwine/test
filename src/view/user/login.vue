@@ -5,7 +5,7 @@
         src="http://localhost:10001/assets/logo.710d5090.svg"
         alt="hahha"
       >
-      <span class="LoginName">TC</span>
+      <span class="LoginName">Tcccc</span>
     </div>
     <a-form
       layout="horizontal"
