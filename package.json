@@ -4,16 +4,25 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build:prod": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "serve_t": "set NODE_OPTIONS=\"--openssl-legacy-provider\" & npm run serve\n"
   },
   "dependencies": {
     "ant-design-vue": "^1.7.8",
     "antd": "^4.23.6",
+    "axios": "^1.3.3",
     "core-js": "^3.6.5",
+    "jsencrypt": "^3.3.2",
     "less": "^3.13.1",
     "less-loader": "^5.0.0",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "reqwest": "^2.0.5",
     "vue": "^2.6.11",
+    "vue-clipboard2": "^0.3.3",
+    "vue-infinite-scroll": "^2.0.2",
     "vue-router": "^3.6.5"
   },
   "devDependencies": {
